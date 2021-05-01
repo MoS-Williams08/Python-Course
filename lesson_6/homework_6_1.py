@@ -72,7 +72,7 @@ list_5 = [1, 2, 3, 1, 1, 1, 2, 3, 4, 'hello', 1, 2, 3, 4, 'hello', 'hello', 1]
 
 def remove_duplicates_list(array_5):
     result = []
-    # result.append(x) for i in array_5 if i not in result
+    # result.append(x) for i in array_5 if i not in result result.append(i)
     for i in array_5:
         if i not in result:
             result.append(i)
