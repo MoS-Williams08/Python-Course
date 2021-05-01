@@ -1,6 +1,7 @@
 import math
 #from math import ceil
 from math import floor
+from math import ceil
 # Round a off to three decimal places.
 
 a = 10.04789
@@ -13,7 +14,7 @@ print(result_1)
 result_2 = 5 / 2 * 6 + 1.25 - 4
 print(result_2)
 print(math.ceil(result_2))
-
+print(ceil(result_2))
 
 # Round up result_3 to lesser value.
 
@@ -25,3 +26,8 @@ bool_true = 1
 bool_false =0
 print(bool(bool_true))
 print(bool(bool_false))
+
+bool_true_b = True
+bool_false_b = False
+print(int(bool_true_b))
+print(int(bool_false_b))
