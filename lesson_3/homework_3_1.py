@@ -26,12 +26,12 @@ print(result_2, number_1)
 
 if number_1 > 20: result_2 = 'Toohigh!' # another indentation format
 #if number_1 > 20 else result_2 = 'Thank you'
-"""if number_1 > 20:
+if number_1 > 20:
     result_2 = 'Too high'
 else:
     result_2 = 'Thank you!'
 print(result_2, number_1)
-"""
+
 
 # Enter your first name and last name in first_name and last_name variables. If the length of your first name is under
 # five characters, join them together (without a space) and save it to result_3 variable in upper case. If the length
@@ -49,7 +49,7 @@ print(result_3)
 # Enter a number between 10 and 20 (inclusive) and save number to number_2 variable
 # If they enter a number within this range, save a message “Thank you” to result_4, otherwise a
 # message “Incorrect answer” to result_4.
-"""
+
 number_2 = input('Please, enter a number between 10 and 20 inclusive : ')
 number_2 = int(number_2)
 if number_2 >= 10 and number_2 <= 20:
@@ -57,7 +57,7 @@ if number_2 >= 10 and number_2 <= 20:
 else:
     result_4 = 'Incorrect result!'
 print(result_4)
-"""
+
 
 # Enter your age. If you are 18 or over, save the message “You can vote” in result_5,
 # if you are aged 17, save the message “You can learn to drive” in result_5 variable,
@@ -83,7 +83,7 @@ print(result_5)
 # Write answer in result_month in lower case
 
 month = input('Enter  number between 1 and 12 : ')
-month= int(month)
+month = int(month)
 result_month = None
 if month == 1:
     result_month = 'January'
